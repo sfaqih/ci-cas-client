@@ -1,0 +1,30 @@
+                    <div class="modal fade" id="ModalEdit" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <form class="form-material" id="edit">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Edit Controller</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-group form-primary form-static-label">
+                                            <input type="text" name="controller_name" class="form-control form-control-lowercase"  required>
+                                            <span class="form-bar"></span>
+                                            <label class="float-label">Nama Controller</label>
+                                        </div>
+                                        <div class="form-group form-primary form-static-label">
+                                            <input type="text" name="description" class="form-control">
+                                            <span class="form-bar"></span>
+                                            <label class="float-label">Deskripsi Controller</label>
+                                        </div>                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default waves-effect " data-dismiss="modal">Tutup</button>
+                                        <button type="submit" class="btn btn-primary waves-effect waves-light ">Simpan</button>
+                                    </div>
+                                </div>                                
+                            </form>
+                        </div>
+                    </div>
