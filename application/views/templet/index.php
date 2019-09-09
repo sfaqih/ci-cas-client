@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title><?= ($this->casLogin) ? 'Cas Client First | '.$this->cas->user()->userlogin : 'Cas Client First' ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -140,7 +140,7 @@
                                     <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                                         <li class="drp-u-details">
                                             <img src="<?= site_url(); ?>assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                                            <span>John Doe</span>
+                                            <span><?= ($this->casLogin) ? $this->cas->user()->userlogin : '-' ?></span>
                                             <a href="<?= site_url('user/logout') ?>" class="dud-logout" title="Logout">
                                                 <i class="feather icon-log-out"></i>
                                             </a>

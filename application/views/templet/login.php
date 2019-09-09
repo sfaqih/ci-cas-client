@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Dash Able Bootstrap Admin Template by #teamphoenixcoded</title>
+    <title>Cas Client First</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -82,7 +82,7 @@
                                             <h3 class="text-center">Masuk</h3>
                                         </div>
                                     </div>
-                                    <div class="form-group form-primary">
+                                    <!-- <div class="form-group form-primary">
                                         <input type="text" name="email" class="form-control" required="" autocomplete="off">
                                         <span class="form-bar"></span>
                                         <label class="float-label">Username</label>
@@ -105,10 +105,10 @@
                                                 <a href="auth-reset-password.html" class="text-right f-w-600"> Lupa Sandi?</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="row m-t-30">
                                         <div class="col-md-12">
-                                            <button type="button" id="btnsubmit" onclick="$('#login').submit();" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Sign in</button>
+                                            <a href="<?=  base_url('cas/login') ?>" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Sign in</a>
                                         </div>
                                     </div>
                                     <hr/>
